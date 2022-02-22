@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+
+body:lang(en){
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    position: relative;
+    list-style: none;
+    padding: 1rem;
+}
+
+li{
+    display: list-item;
+    font-family:  'Noto Sans KR', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+ul>li:before {
+    position: absolute;
+    left: 30px;
+    display: inline-block;
+    content: "•";
+    color: #3eb373;
+}
+
+body{
+    word-break: keep-all;
+}
+.myResumeTitle{
+    margin:80px auto;
+}
+
+h1 {
+    font-family:  'Noto Sans KR', sans-serif;
+    font-size: 45px;
+    min-width: 400px;
+    max-width: 30%;
+    margin: 0 auto;
+    color: #14a355;
+}
+
+#title2{
+    text-align: right;
+}
+
+.boxContainer{
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+}
+
+.introduceBox{
+    margin: 20px auto 80px auto;
+    width: 60%;
+}
+.introduceBox p{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box{
+    margin-bottom: 20px;
+    padding: 0 1rem;
+}
+
+.box p{
+    margin: 0 auto;
+    width: 80%;
+}
+h2{
+    width: 73%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+h3{
+    font-family:  'Noto Sans KR', sans-serif;
+}
+
+h4{
+    font-family:  'Noto Sans KR', sans-serif;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+.experienceItem>p{
+    margin-bottom: 2rem;
+}
+
+.experience{
+    margin-top: 40px;
+}
+
+.itemH3Period{
+    width: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.period{
+    margin-left: 1rem;
+}
+
+p{
+    font-family:  'Noto Sans KR', sans-serif;
+    line-height:  1.75rem;
+}
+
+hr{
+    margin-top: 1rem;
+}
+
+.url{
+    padding-left: 20px;
+}
